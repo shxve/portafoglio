@@ -75,8 +75,11 @@ def main():
         print("Main")
 
     url = "https://query1.finance.yahoo.com/v7/finance/download/PIRC.MI?period1=1642923403&period2=1674459403&interval=1d&events=history&includeAdjustedClose=true"
+    
+    print("Downloading PIRC.csv from Yahoo Finance...")
     r = requests.get(url, headers=HEADERS)
-
+    
+    print("Download completed\n")
     open("PIRC.csv", "wb").write(r.content)
 
     csv_dict = csv_to_dict("PIRC.csv")
