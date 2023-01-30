@@ -65,7 +65,7 @@ PyYAML (<https://pypi.org/project/PyYAML/>)
 
 ## Author
 
-Made by Foroni Pietro, Albert Grecu e Grasso Ludovico
+Made by Foroni Pietro, Albert Grecu and Grasso Ludovico
 
 ## Contact
 
