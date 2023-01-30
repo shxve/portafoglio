@@ -26,6 +26,7 @@ with the current directories structure:
         headers.py
         main.py
         README.md
+        LICENSE
 
 ## Required
 
